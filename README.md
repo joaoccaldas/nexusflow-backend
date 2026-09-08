@@ -1,7 +1,26 @@
-IyBuZXh1c2Zsb3ctYmFja2VuZAoKIyMgTkVYVSBGbG93IEFJIEJhY2tlbmQK
-QmFja2VuZCBzZXJ2ZXIgZm9yIE5leHNGbG93IEFJIHdpdGggT0F1dGgyIGF1
-dGhlbnRpY2F0aW9uLCBHbWFpbCBpbnRlZ3JhdGlvbiwgYW5kIENhbGVuZGFy
-IEFQSTouCgojIyBTdGF0dXMKQWN0aXZlIGRldmVsb3BtZW50LiBCYWNrZW5k
-IGluZnJhc3RydWN0dXJlIGZvciBBSS1wb3dlcmVkIHdvcmtmbG93cy4KCioi
-QnVpbHQgYnkgSm/Do28gQ2FsZGFzIHwgam9hb2NjYWxkYXNAZ21haWwuY29t
-Iio=
+# NexusFlow Backend
+
+**Backend server for NexusFlow AI** — OAuth2 authentication with Gmail and Google Calendar integration, providing the infrastructure for AI-assisted productivity workflows.
+
+## Features
+
+- OAuth2 authentication flow
+- Gmail API integration
+- Google Calendar API integration
+- Service-oriented structure (`services/`)
+
+## Getting started
+
+```bash
+npm install
+cp .env.example .env   # fill in your own OAuth credentials — never commit real secrets
+node server.js
+```
+
+## Status
+
+Active development — backend for AI-powered workflows.
+
+---
+
+Built by [João Caldas](https://github.com/joaoccaldas).
